@@ -5,9 +5,9 @@
     </router-link>
   </header>
   <main>
-    <router-view></router-view> 
+    <router-view/> 
   </main>
-  <router-view/>
+  
 </template>
 
 <style lang="scss">
@@ -30,7 +30,7 @@
     align-items: center;
     justify-content: center;
     padding: 10px 16px;
-    background: #545b61;
+    background: #0c3a63;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.1);
   }
   h1{
